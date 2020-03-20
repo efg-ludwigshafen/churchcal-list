@@ -1,0 +1,26 @@
+{
+  "name": "churchcal-list",
+  "version": "1.0.0",
+  "description": "generate pdf from monthly ical",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/efg-ludwigshafen/churchcal-list.git"
+  },
+  "author": "Dominik Schreiber <dominik.schreiber@efg-ludwigshafen.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efg-ludwigshafen/churchcal-list/issues"
+  },
+  "homepage": "https://github.com/efg-ludwigshafen/churchcal-list#readme",
+  "dependencies": {
+    "node-ical": "^0.10.0",
+    "pdfkit": "^0.11.0"
+  },
+  "config": {
+    "ical_url": "https://efg-lu.church.tools/?q=churchcal/ical"
+  }
+}
