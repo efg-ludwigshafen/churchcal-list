@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/efg-ludwigshafen/churchcal-list#readme",
   "dependencies": {
-    "node-ical": "^0.10.0",
-    "pdfkit": "^0.11.0"
+    "node-ical": "^0.15.1",
+    "pdfkit": "^0.13.0"
   },
   "config": {
     "ical_url": "https://efg-lu.church.tools/?q=churchcal/ical"
